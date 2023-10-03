@@ -1,0 +1,26 @@
+#page3{
+    height: 50vh;
+    position: relative;
+    background-color:#C3BCB2;
+}
+
+#page3 h1{
+    font-family: Canopee;
+    font-size: 27vw;
+    line-height: 45vh;
+    letter-spacing: -10px;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color: #C3BCB2;
+    width: fit-content;
+    margin-left: 2%;
+    padding: 0 20px;
+}
+
+#page3 img{
+    height: 45vh;
+    position: absolute;
+    top: 0;
+    right: 4%;
+    width: 22%;
+}

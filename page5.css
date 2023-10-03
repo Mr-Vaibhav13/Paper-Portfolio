@@ -1,0 +1,65 @@
+#page5{
+    /* height: 100px; */
+    width: 100%;
+    padding: 25px 0;
+    background-color: #C3BBB2;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#page5::-webkit-scrollbar{
+    display: none;
+}
+
+#page5 h1{
+    font-family: domaine;
+    font-size: 80px;
+    font-weight: 100;
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+#page5 h1 span{
+    background-color: #1C1B19;
+    color: #C3BBB2;
+    font-family: canopee;
+    padding: 0 12px;
+    font-size: 100px;
+}
+
+#page5 h1 span a{
+    color: #C3BBB2;
+    text-decoration: none;
+}
+
+@keyframes move{
+
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+
+#page5:hover h1{
+    animation-play-state: paused;
+}
+
+
+
+#extra{
+    background-color: #C3BBB2;
+    height: 40px;
+}
